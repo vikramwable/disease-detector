@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Crop E Doctor</title>
+  <style>
+   body {
+    background-color: #e6e6e6;
+    box-sizing: border-box;
+   }
+  .container {
+    padding: 40px;
+    width: 450px;
+    background-color: #00994d;
+    color: #fff;
+    margin: 100px auto 0;
+    height: 200px;
+  }
+  input[type="submit"] {
+   padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    border: 1px solid #fff;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.btn {
+border: 1px solid;
+    color: #000000;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+#loader {
+    position: absolute;
+    width: 105px;
+    height: 45px;
+    bottom: 14px;
+}
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Select disease Image to compare</h1>
+
+  <form method="POST" action="/upload" enctype="multipart/form-data">
+    <div class="upload-btn-wrapper">
+      <button class="btn">Select a image</button>
+      <input id="file-upload" type="file" name="file"/>
+      <span id="myspan">  </span>
+    </div>
+    <input type="submit" value="Submit" id="submit-btn"/>
+    <img src="../Images/Loading_icon.gif" id="loader" style="display:none;" />
+  </form>
+</div>
+<script>
+document.getElementById('file-upload').onchange = function () {
+  var fileName = this.value;
+  fileName = fileName.replace(/.*[\/\\]/, '');
+  document.getElementById('myspan').innerHTML = fileName;
+};
+document.getElementById('submit-btn').onclick = function () {
+  document.getElementById('loader').style.display = 'block';
+};
+</script>
+</body>
+</html>
