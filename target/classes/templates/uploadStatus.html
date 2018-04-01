@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
+<title>Crop E Doctor</title>
+<style>
+  body {
+    background-color: #00994d;
+    box-sizing: border-box;
+  }
+
+  .container {
+    padding: 40px;
+    width: 450px;
+    background-color: #00994d;
+    color: #fff;
+    margin: 100px auto 0;
+    height: 200px;
+    max-width: 100%;
+    border: 1px solid;
+  }
+
+  .animated {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+
+  h2 {
+    color: #000;
+    text-decoration: underline;
+  }
+</style>
+
 <body>
+<div class="container">
+  <h1>Probable disease : </h1>
 
-<h1>Probable disease : </h1>
-
-<div th:if="${message}">
-  <h2 th:text="${message}"/>
+  <div th:if="${message}">
+    <h2 th:text="${message}" class="animated fadeIn" />
+  </div>
 </div>
-
 </body>
+
 </html>
