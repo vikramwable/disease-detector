@@ -2,90 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f7fde2d-9c56-40cf-9459-b1c909aaff48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_io_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/disease-detector.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Images/Anthracnose/Anthracnose.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Images/Cercospora_fruit_spot/Cercospora_fruit_spot.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Images/Fungal_Wilt/Pomegranate_Wilt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Images/Thrips/Thrip.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Images/alternaria_spot/alternaria_spot.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Images/bacterial_blight/bacterial_blight.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Images/gray_mold_(Botrytis_cinerea)/gray_mold_Botrytis_cinerea.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180210_150300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180210_150523.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180210_150525.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20180210_150539.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Anthracnose/20180210_151802.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Anthracnose/20180210_151817.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Anthracnose/20180210_152037.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Anthracnose/20180210_152102.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Anthracnose/20180210_152120.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Anthracnose/20180210_152134.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Anthracnose/20180210_152155.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Anthracnose/20180210_152227.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Anthracnose/20180210_154415.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Anthracnose/20180210_154422.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Anthracnose/20180210_154430.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Anthracnose/20180210_154438.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Cercospora_fruit_spot/20180210_153615.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Cercospora_fruit_spot/20180210_153623.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Cercospora_fruit_spot/20180210_153633.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Fungal_Wilt/20180210_153903.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Fungal_Wilt/20180210_153911.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Fungal_Wilt/20180210_153917.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Fungal_Wilt/20180210_153923.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Fungal_Wilt/20180210_153930.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Fungal_Wilt/20180210_153936.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Fungal_Wilt/20180210_153943.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Loading_icon.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Thrips/20180210_152803.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Thrips/20180210_152829.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Thrips/20180210_153730.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Thrips/20180210_154212.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Thrips/20180210_154220.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Thrips/20180210_154237.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/Thrips/20180210_154301.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/alternaria_spot/20180210_151421.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/alternaria_spot/20180210_151447.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/alternaria_spot/20180210_151534.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/alternaria_spot/20180210_151553.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/alternaria_spot/20180210_151634.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/alternaria_spot/20180210_153329.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/alternaria_spot/20180210_153350.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/alternaria_spot/20180210_153412.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/alternaria_spot/20180210_153428.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/alternaria_spot/20180210_153447.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/bacterial_blight/20180210_150759.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/bacterial_blight/20180210_150840.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/bacterial_blight/20180210_150901.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/bacterial_blight/20180210_150917.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/bacterial_blight/20180210_150942.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/bacterial_blight/20180210_151018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/bacterial_blight/20180210_151030.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/gray_mold_(Botrytis_cinerea)/20180210_150300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/gray_mold_(Botrytis_cinerea)/20180210_150523.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/gray_mold_(Botrytis_cinerea)/20180210_150525.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Images/gray_mold_(Botrytis_cinerea)/20180210_150539.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/assets/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/assets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/disease/detector/SpringBootWebApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/disease/detector/controller/GlobalExceptionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/disease/detector/controller/UploadController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/disease/detector/services/DiseaseDetectorService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/disease/detector/services/ImageUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/templates/upload.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/templates/uploadStatus.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/disease/detector/controller/UploadController.java" afterPath="$PROJECT_DIR$/src/main/java/com/disease/detector/controller/UploadController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/disease/detector/services/DiseaseDetectorService.java" afterPath="$PROJECT_DIR$/src/main/java/com/disease/detector/services/DiseaseDetectorService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/upload.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/upload.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Images/Anthracnose/Anthracnose.txt" afterPath="$PROJECT_DIR$/src/main/resources/Images/Anthracnose/Anthracnose.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Images/Cercospora_fruit_spot/Cercospora_fruit_spot.txt" afterPath="$PROJECT_DIR$/src/main/resources/Images/Cercospora_fruit_spot/Cercospora_fruit_spot.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Images/Fungal_Wilt/Pomegranate_Wilt.txt" afterPath="$PROJECT_DIR$/src/main/resources/Images/Fungal_Wilt/Pomegranate_Wilt.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Images/Thrips/Thrip.txt" afterPath="$PROJECT_DIR$/src/main/resources/Images/Thrips/Thrip.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Images/alternaria_spot/alternaria_spot.txt" afterPath="$PROJECT_DIR$/src/main/resources/Images/alternaria_spot/alternaria_spot.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Images/bacterial_blight/bacterial_blight.txt" afterPath="$PROJECT_DIR$/src/main/resources/Images/bacterial_blight/bacterial_blight.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Images/gray_mold_(Botrytis_cinerea)/gray_mold_Botrytis_cinerea.txt" afterPath="$PROJECT_DIR$/src/main/resources/Images/gray_mold_(Botrytis_cinerea)/gray_mold_Botrytis_cinerea.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/uploadStatus.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/uploadStatus.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -108,11 +32,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadStatus.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uploadStatus.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/uploadStatus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="533">
+              <caret line="63" column="13" lean-forward="false" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pomegranate_Wilt.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Images/Fungal_Wilt/Pomegranate_Wilt.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gray_mold_Botrytis_cinerea.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Images/gray_mold_(Botrytis_cinerea)/gray_mold_Botrytis_cinerea.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thrip.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Images/Thrips/Thrip.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -134,15 +88,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/disease/detector/controller/UploadController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/disease/detector/services/DiseaseDetectorService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Images/Anthracnose/Anthracnose.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Images/bacterial_blight/bacterial blight.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Images/Cercospora_fruit_spot/Cercospora fruit spot.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Images/Fungal_Wilt/Pomegranate Wilt.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Images/gray_mold_(Botrytis_cinerea)/gray mold (Botrytis cinerea).txt" />
-        <option value="$PROJECT_DIR$/src/main/resources/Images/Thrips/Thrip.txt" />
-        <option value="$PROJECT_DIR$/src/main/resources/Images/alternaria_spot/alternaria_spot.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/upload.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/uploadStatus.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/Images/alternaria_spot/alternaria_spot.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Images/Anthracnose/Anthracnose.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Images/bacterial_blight/bacterial_blight.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Images/Cercospora_fruit_spot/Cercospora_fruit_spot.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Images/Fungal_Wilt/Pomegranate_Wilt.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Images/gray_mold_(Botrytis_cinerea)/gray_mold_Botrytis_cinerea.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Images/Thrips/Thrip.txt" />
       </list>
     </option>
   </component>
@@ -177,6 +135,11 @@
             <path>
               <item name="disease-detector" type="b2602c69:ProjectViewProjectNode" />
               <item name="disease-detector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disease-detector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disease-detector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -516,54 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/Anthracnose/Anthracnose.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/bacterial_blight/bacterial_blight.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/Cercospora_fruit_spot/Cercospora_fruit_spot.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="100" lean-forward="false" selection-start-line="15" selection-start-column="100" selection-end-line="15" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/Fungal_Wilt/Pomegranate_Wilt.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/gray_mold_(Botrytis_cinerea)/gray_mold_Botrytis_cinerea.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/Thrips/Thrip.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/disease/detector/controller/UploadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -591,14 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/alternaria_spot/alternaria_spot.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/upload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
@@ -607,10 +514,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/Cercospora_fruit_spot/Cercospora_fruit_spot.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/bacterial_blight/bacterial_blight.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/Anthracnose/Anthracnose.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/alternaria_spot/alternaria_spot.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/uploadStatus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="533">
+          <caret line="63" column="13" lean-forward="false" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/Fungal_Wilt/Pomegranate_Wilt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/gray_mold_(Botrytis_cinerea)/gray_mold_Botrytis_cinerea.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Images/Thrips/Thrip.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding />
         </state>
       </provider>
