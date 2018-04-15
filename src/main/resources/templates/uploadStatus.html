@@ -13,7 +13,6 @@
     background-color: #00994d;
     color: #fff;
     margin: 100px auto 0;
-    height: 200px;
     max-width: 100%;
     border: 1px solid;
   }
@@ -52,16 +51,21 @@
     color: #000;
     text-decoration: underline;
   }
+
+
 </style>
 
 <body>
 <div class="container">
   <h1>Probable disease : </h1>
-
-  <div th:if="${message}">
-    <h2 th:text="${message}" class="animated fadeIn" />
+  <div th:if="${disease}">
+    <h2 th:text="${disease}" class="animated fadeIn"/>
+    <!--<div th:attr="data-el_id=${description}">-->
+    <div th:text="${description}"></div>
+    <!--<div class="content"th:utext="${description}"></div>-->
+    <!--<p th:text="${description}"/>-->
+    <!--</div>-->
   </div>
 </div>
 </body>
-
 </html>

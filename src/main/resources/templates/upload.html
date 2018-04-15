@@ -59,6 +59,7 @@
       width: 105px;
       height: 45px;
     }
+
   </style>
 </head>
 
@@ -69,11 +70,11 @@
   <form method="POST" action="/upload" enctype="multipart/form-data">
     <div class="upload-btn-wrapper">
       <button class="btn">Select a image</button>
-      <input id="file-upload" type="file" name="file" />
+      <input id="file-upload" type="file" name="file"/>
       <span id="myspan">  </span>
     </div>
-    <input type="submit" value="Submit" id="submit-btn" />
-    <img src="../Images/Loading_icon.gif" id="loader" style="display:none;" />
+    <input type="submit" value="Submit" id="submit-btn"/>
+    <img src="../Images/Loading_icon.gif" id="loader" style="display:none;"/>
   </form>
 </div>
 <script>
@@ -86,7 +87,7 @@
       document.getElementById('submit-btn').style.display = 'none';
       document.getElementById('loader').style.display = 'block';
     };
-  </script>
+</script>
 </body>
 
 </html>

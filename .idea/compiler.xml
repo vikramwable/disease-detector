@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-file-upload" />
+        <module name="disease-detector" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-boot-file-upload" target="1.8" />
+      <module name="disease-detector" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

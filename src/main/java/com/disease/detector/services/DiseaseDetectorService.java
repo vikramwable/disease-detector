@@ -2,12 +2,16 @@ package com.disease.detector.services;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
+import org.apache.commons.io.FileUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import org.thymeleaf.util.StringUtils;
@@ -19,38 +23,63 @@ public class DiseaseDetectorService
   /**
    * Will detect disease and return probable disease name
    */
-  public String detectDisease(MultipartFile multipartFile) throws Exception
+  public Map detectDisease(MultipartFile multipartFile) throws Exception
   {
     File file = convert(multipartFile);
     Map<String, List<String>> diseases = getAllDiseases();
     return findDisease(file, diseases);
   }
 
-  private String findDisease(File file, Map<String, List<String>> diseasesMap)
+
+  private Map findDisease(File file, Map<String, List<String>> diseasesMap) throws IOException
   {
+    Map<String, String> map = new HashMap<>();
     Set<String> diseases = diseasesMap.keySet();
     for (String disease : diseases)
     {
       List<String> files = diseasesMap.get(disease);
       if (isDiseaseAvailable(files, disease, file))
       {
-        return StringUtils.capitalize(disease.replace("_", " "));
+        map.put("disease", StringUtils.capitalize(disease.replace("_", " ")));
+        map.put("description", getDiseaseDescription(files, disease));
+        return map;
       }
     }
-    return "Not able to find disease";
+    if (map.get("disease") == null)
+    {
+      map.put("disease", "Not able to find disease");
+    }
+    return map;
   }
 
   private boolean isDiseaseAvailable(List<String> files, String disease, File sourceFile)
   {
     for (String fileName : files)
     {
-      File file = getFile("Images/" + disease + "/" + fileName);
-      if (ImageUtils.visuallyCompare(sourceFile, file))
+      if (!fileName.endsWith("txt"))
       {
-        return true;
+        File file = getFile("Images/" + disease + "/" + fileName);
+        if (ImageUtils.visuallyCompare(sourceFile, file))
+        {
+          return true;
+        }
       }
     }
     return false;
+  }
+
+  private String getDiseaseDescription(List<String> files, String disease) throws IOException
+  {
+    String content = "";
+    for (String fileName : files)
+    {
+      if (fileName.endsWith("txt"))
+      {
+        File file = getFile("Images/" + disease + "/" + fileName);
+        content = FileUtils.readFileToString(file, "UTF-8");
+      }
+    }
+    return content;
   }
 
   /**

@@ -1,6 +1,7 @@
 package com.disease.detector.controller;
 
 import com.disease.detector.services.DiseaseDetectorService;
+import java.util.Map;
 import javax.validation.constraints.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -29,8 +30,9 @@ public class UploadController
   {
     try
     {
-      String message = diseaseDetectorService.detectDisease(file);
-      redirectAttributes.addFlashAttribute("message", message);
+      Map message = diseaseDetectorService.detectDisease(file);
+      redirectAttributes.addFlashAttribute("disease", message.get("disease"));
+      redirectAttributes.addFlashAttribute("description", message.get("description"));
     }
     catch (Exception e)
     {
